@@ -40,6 +40,7 @@
   <project path="frameworks/native" name="AOKP/frameworks_native" groups="pdk" />
   <project path="packages/apps/CMParts" name="AOKP/packages_apps_CMParts" />
   <project path="frameworks/base" name="AOKP/frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/apps/Dialer" name="AOKP/packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/DUI" name="AOKP/packages_apps_DUI"  />
   <project path="packages/apps/ROMControl" name="AOKP/packages_apps_ROMControl" />
   <project path="packages/apps/Settings" name="AOKP/packages_apps_Settings" groups="pdk-fs" />
@@ -106,7 +107,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk-fs" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium-webview" name="platform/external/chromium-webview" groups="pdk" clone-depth="1" remote="aosp" />
+  <project path="external/chromium-webview" remote="cm" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk-fs" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
@@ -411,7 +412,6 @@
   <project path="packages/apps/Contacts" remote="cm" name="LineageOS/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" remote="cm" name="LineageOS/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/DeskClock" remote="cm" name="LineageOS/android_packages_apps_DeskClock" groups="pdk-fs" />
-  <project path="packages/apps/Dialer" remote="cm" name="LineageOS/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" remote="cm" name="LineageOS/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/EmergencyInfo" remote="cm" name="LineageOS/android_packages_apps_EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" remote="cm" name="LineageOS/android_packages_apps_ExactCalculator" groups="pdk-fs" />
